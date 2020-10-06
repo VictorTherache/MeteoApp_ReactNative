@@ -1,12 +1,16 @@
 {
-  "name": "MaMeteo",
-  "displayName": "MaMeteo",
   "expo": {
-    "name": "MaMeteo",
-    "slug": "MaMeteo",
-    "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+   "name": "MaMeteo",
+   "icon": "./components/icons/Sun_cloud.png",
+   "version": "1.0.0",
+   "slug": "meteo-app-slug",
+   "ios": {
+     "bundleIdentifier": "com.yourcompany.yourappname",
+     "buildNumber": "1.0.0"
+   },
+   "android": {
+     "package": "com.yourcompany.yourappname",
+     "versionCode": 1
+   }
   }
 }
